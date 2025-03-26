@@ -1,0 +1,22 @@
+calculator-app/
+├── app/                # 核心代码目录
+│   ├── __init__.py
+│   ├── model.py        # 计算逻辑（核心算法）
+│   ├── view.py         # UI 布局与组件（PyQt/Kivy 界面）
+│   ├── controller.py   # 业务逻辑（连接视图和模型）
+│   └── utils.py        # 工具函数（如主题管理、历史记录）
+│
+├── assets/             # 静态资源
+│   ├── styles/         # CSS/QSS 样式表（定制主题）
+│   ├── icons/          # 图标和图片资源
+│   └── fonts/          # 自定义字体
+│
+├── config/             # 配置文件
+│   ├── settings.json   # 用户偏好（主题、快捷键等）
+│   └── constants.py    # 全局常量（如颜色、尺寸）
+│
+├── tests/              # 测试代码
+│   ├── test_model.py   # 计算逻辑测试
+│   └── test_ui.py      # UI 交互测试
+│
+└── main.py             # 入口文件

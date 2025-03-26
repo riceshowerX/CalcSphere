@@ -1,6 +1,4 @@
-已为您适配 GPL-3.0 许可证的 README 文件，以下是更新后的版本：
 
-```markdown
 # 🧮 CalcSphere - Modern Scientific Calculator
 
 [![PyPI](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)

@@ -1,8 +1,10 @@
-from PyQt6.QtWidgets import QMainWindow, QLineEdit, QGridLayout, QPushButton, QWidget, QToolBar, QComboBox, QListWidget
+from PyQt6.QtWidgets import (  # 确保包含所有需要的组件
+    QMainWindow, QLineEdit, QGridLayout, QPushButton, QWidget, 
+    QToolBar, QComboBox, QListWidget, QVBoxLayout  # 新增 QVBoxLayout
+)
 from PyQt6.QtGui import QAction, QIcon
 from PyQt6.QtCore import Qt
 from config.constants import PRIMARY_COLOR, SECONDARY_COLOR
-
 class CalculatorView(QMainWindow):
     def __init__(self):
         super().__init__()

@@ -1,6 +1,6 @@
 from app.model import CalculatorModel
 from app.utils import HistoryManager
-from PyQt6.QtWidgets import QListWidgetItem
+from PyQt6.QtWidgets import QListWidgetItem, QPushButton
 
 class CalculatorController:
     def __init__(self, view):
